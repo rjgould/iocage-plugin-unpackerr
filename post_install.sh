@@ -7,4 +7,7 @@ mkdir -p /usr/local/etc/unpackerr
 fetch https://github.com/Unpackerr/unpackerr/releases/download/v0.11.2/unpackerr.amd64.freebsd.gz -o /tmp/unpackerr.amd64.freebsd.gz
 
 # Extract Unpackerr binary
-gzip -d /tmp/unpackerr.amd64.freebsd.gz /usr/local/etc/unpackerr
+gzip -d /tmp/unpackerr.amd64.freebsd.gz
+
+# Move Unpackerr binary
+mv /tmp/unpackerr.amd64.freebsd /usr/local/etc/unpackerr/unpackerr
