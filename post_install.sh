@@ -11,3 +11,6 @@ gzip -d /tmp/unpackerr.amd64.freebsd.gz
 
 # Move Unpackerr binary
 mv /tmp/unpackerr.amd64.freebsd /usr/local/etc/unpackerr/unpackerr
+
+# Make Unpackerr binary executable
+chmod +x /usr/local/etc/unpackerr/unpackerr
