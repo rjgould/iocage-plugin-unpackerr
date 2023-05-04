@@ -10,7 +10,7 @@ fetch https://github.com/Unpackerr/unpackerr/releases/download/v0.11.2/unpackerr
 gzip -d /tmp/unpackerr.amd64.freebsd.gz
 
 # Move Unpackerr binary
-mv /tmp/unpackerr.amd64.freebsd /usr/local/etc/unpackerr/unpackerr
+mv /tmp/unpackerr.amd64.freebsd /usr/local/bin/unpackerr
 
 # Make Unpackerr binary executable
-chmod +x /usr/local/etc/unpackerr/unpackerr
+chmod +x /usr/local/bin/unpackerr
